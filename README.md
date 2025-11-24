@@ -1,4 +1,4 @@
-YouTube Clone (React + Vite)
+## YouTube Clone (React + Vite)
 
 A modern YouTube Clone built using **React 19**, **Vite**, **Material UI**, and **RapidAPI**.
 Browse trending videos, watch content, explore channels, and search — similar to YouTube’s core functionality.
