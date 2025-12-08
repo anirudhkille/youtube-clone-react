@@ -5,7 +5,7 @@ import { Typography, Box, Stack } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 import Videos from "../components/videos";
-import Loader from "../components/loader";
+import Loading from "../components/loading";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 
 export default function VideoDetail() {
@@ -23,7 +23,7 @@ export default function VideoDetail() {
     );
   }, [id]);
 
-  if (!videoDetail?.snippet) return <Loader />;
+  if (!videoDetail?.snippet) return <Loading />;
 
   const {
     snippet: { title, channelId, channelTitle },

@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import { logo } from "../utils/Constant";
 import SearchBar from "./search-bar";
 
-export default function Navbar() {
+export default function Header() {
   return (
     <Stack
       direction="row"

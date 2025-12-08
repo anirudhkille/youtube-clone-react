@@ -1,8 +1,8 @@
 import { Box } from "@mui/material";
-import Navbar from "./components/navbar";
+import Header from "./components/header";
 import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router";
-import Loader from "./components/loader";
+import Loading from "./components/loading";
 
 const Feed = lazy(() => import("./pages/feed"));
 const VideoDetail = lazy(() => import("./pages/feed"));
@@ -12,8 +12,8 @@ const SearchFeed = lazy(() => import("./pages/feed"));
 export default function App() {
   return (
     <Box sx={{ backgroundColor: "#000" }}>
-      <Navbar />
-      <Suspense fallback={<Loader />}>
+      <Header />
+      <Suspense fallback={<Loading />}>
         <Routes>
           <Route path="/" exact element={<Feed />} />
           <Route path="/video/:id" element={<VideoDetail />} />

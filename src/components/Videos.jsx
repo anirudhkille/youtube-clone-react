@@ -1,10 +1,10 @@
 import { Stack, Box } from "@mui/material";
 import VideoCard from "./video-card";
 import ChannelCard from "./channel-card";
-import Loader from "./loader";
+import Loading from "./loading";
 
 export default function Videos({ videos, direction }) {
-  if (!videos?.length) return <Loader />;
+  if (!videos?.length) return <Loading />;
 
   return (
     <Stack
