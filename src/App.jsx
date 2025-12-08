@@ -5,9 +5,9 @@ import { Route, Routes } from "react-router";
 import Loading from "./components/loading";
 
 const Feed = lazy(() => import("./pages/feed"));
-const VideoDetail = lazy(() => import("./pages/feed"));
-const ChannelDetail = lazy(() => import("./pages/feed"));
-const SearchFeed = lazy(() => import("./pages/feed"));
+const VideoDetail = lazy(() => import("./pages/video-detail"));
+const ChannelDetail = lazy(() => import("./pages/channel-detail"));
+const SearchFeed = lazy(() => import("./pages/search-feed"));
 
 export default function App() {
   return (

@@ -1,7 +1,7 @@
 import { Stack, Box } from "@mui/material";
-import VideoCard from "../components/video-card";
-import ChannelCard from "../components/channel-card";
-import Loading from "../components/loading";
+import VideoCard from "./video-card";
+import ChannelCard from "./channel-card";
+import Loading from "./loading";
 
 export default function Videos({ videos, direction }) {
   if (!videos?.length) return <Loading />;
