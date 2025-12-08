@@ -7,26 +7,26 @@ Browse trending videos, watch content, explore channels, and search — similar 
 
 ## 🚀 Features
 
-* 📺 **Home Feed** with trending videos
-* 🔍 **Search page** using RapidAPI
-* 🎥 **Video detail page** with related videos
-* 👤 **Channel detail page**
-* ⚡ **Super-fast development** using Vite
-* 🎨 **Modern UI** with MUI
-* 📱 Fully responsive
-* ⏳ Lazy loading using `React.lazy` + `Suspense`
+- 📺 **Home Feed** with trending videos
+- 🔍 **Search page** using RapidAPI
+- 🎥 **Video detail page** with related videos
+- 👤 **Channel detail page**
+- ⚡ **Super-fast development** using Vite
+- 🎨 **Modern UI** with MUI
+- 📱 Fully responsive
+- ⏳ Lazy loading using `React.lazy` + `Suspense`
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **React 19**
-* **Vite**
-* **React Router 7**
-* **Material UI (MUI)**
-* **Axios**
-* **RapidAPI – YouTube API**
-* **ESLint + Prettier**
+- **React 19**
+- **Vite**
+- **React Router 7**
+- **Material UI (MUI)**
+- **Axios**
+- **RapidAPI – YouTube API**
+- **ESLint + Prettier**
 
 ---
 
@@ -123,7 +123,6 @@ export const fetchFromAPI = async (url) => {
 
   return data;
 };
-
 ```
 
 ---
@@ -138,11 +137,11 @@ const Feed = lazy(() => import("./pages/feed"));
 
 ## 🎯 Project Objectives
 
-* Learn advanced React state & routing
-* Understand API integration with RapidAPI
-* Practice UI building with MUI
-* Improve performance using lazy loading
-* Build a full real-world project
+- Learn advanced React state & routing
+- Understand API integration with RapidAPI
+- Practice UI building with MUI
+- Improve performance using lazy loading
+- Build a full real-world project
 
 ---
 

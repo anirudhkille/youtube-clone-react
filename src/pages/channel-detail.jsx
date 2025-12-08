@@ -1,9 +1,8 @@
 import { Box } from "@mui/material";
-
 import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
-import ChannelCard from "../components/ChannelCard";
+import ChannelCard from "../components/channel-card";
 import Videos from "../components/videos";
 
 export default function ChannelDetail() {
